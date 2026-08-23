@@ -1,0 +1,10 @@
+{
+  "scenario": "James River Kitchen",
+  "fictional": true,
+  "educational_note": "All amounts are fictional assumptions for learning, not restaurant financial data, engineering quotes, or market-rate claims.",
+  "current_state_cost": "30000.00",
+  "recoverable_value": "18000.00",
+  "customer_price": "8000.00",
+  "engineering_cost": "3000.00",
+  "other_direct_costs": "500.00"
+}
