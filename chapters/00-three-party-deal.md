@@ -46,8 +46,8 @@ Real inputs must come from discovery, not wishful arithmetic:
 - Which existing systems hold relevant information?
 - What improvement would actually matter?
 
-The fictional values merely let us run the framework. Chapter 1 will investigate
-how to form a credible value hypothesis; it is not implemented here.
+The fictional values merely let us run the framework. Chapter 1 now investigates
+how to form a credible value hypothesis from visible operational assumptions.
 
 ## 3. The three participants
 
@@ -212,9 +212,8 @@ whether a credible case exists. A valid conclusion may be to use existing SaaS,
 improve the process without software, run a smaller experiment, postpone the
 project, or build nothing.
 
-## 14. What Chapter 1 will investigate next
+## 14. What Chapter 1 investigates next
 
-The planned Chapter 1 asks, “What Is the Business Problem Worth?” It will go
-deeper into discovery economics later. No Chapter 1 model is implemented in this
-repository today.
-
+Chapter 1 asks, “What Is the Business Problem Worth?” It decomposes the $30,000
+current-state burden and makes each improvement assumption visible. Continue with
+[`01-business-value.md`](01-business-value.md).

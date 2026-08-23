@@ -1,0 +1,49 @@
+{
+  "scenario": "James River Kitchen",
+  "fictional": true,
+  "educational_note": "Every amount and improvement rate is a fictional, editable assumption for learning; none is restaurant data or an industry benchmark.",
+  "components": [
+    {
+      "name": "Manager reconciliation",
+      "description": "Assumed manager time associated with the investigated reconciliation friction.",
+      "type": "labor",
+      "hours_per_occurrence": "5",
+      "occurrences_per_year": "52",
+      "loaded_hourly_cost": "35.00",
+      "improvement_rate": "0.70"
+    },
+    {
+      "name": "Avoidable food waste",
+      "description": "Only the assumed avoidable portion of waste, not total food cost.",
+      "type": "periodic",
+      "cost_per_period": "150.00",
+      "periods_per_year": "52",
+      "improvement_rate": "0.50"
+    },
+    {
+      "name": "Scheduling labor inefficiency",
+      "description": "Assumed avoidable labor time, separate from manager reconciliation.",
+      "type": "labor",
+      "hours_per_occurrence": "2",
+      "occurrences_per_year": "50",
+      "loaded_hourly_cost": "40.00",
+      "improvement_rate": "0.70"
+    },
+    {
+      "name": "Preventable operational errors",
+      "description": "Assumed economic cost of avoidable ordering and rush-purchase events.",
+      "type": "event",
+      "events_per_year": "20",
+      "cost_per_event": "190.00",
+      "improvement_rate": "0.60"
+    },
+    {
+      "name": "Lost contribution from missed opportunities",
+      "description": "Assumed contribution forgone, not gross sales revenue and not profit.",
+      "type": "event",
+      "events_per_year": "10",
+      "cost_per_event": "530.00",
+      "improvement_rate": "0.50"
+    }
+  ]
+}
