@@ -1,0 +1,9 @@
+{
+  "scenario": "James River Kitchen",
+  "fictional": true,
+  "educational_note": "Every amount is a fictional, editable assumption for learning; this is a pricing model, not a customer quote, restaurant data, or a market-rate claim.",
+  "annual_economic_benefit": "18000.00",
+  "implementation_price": "8000.00",
+  "monthly_recurring_fee": "350.00",
+  "analysis_years": 1
+}

@@ -5,8 +5,8 @@ of custom-software engagements from a technical-sales and solutions-engineering
 perspective. Its central question is: **when does an engagement make economic
 sense for the customer, the solutions organization, and the engineering partner?**
 
-**Chapter 0 — The Three-Party Deal** and **Chapter 1 — What Is the Business
-Problem Worth?** are implemented. The repository is a
+**Chapter 0 — The Three-Party Deal**, **Chapter 1 — What Is the Business
+Problem Worth?**, and **Chapter 2 — What Should the Customer Pay?** are implemented. The repository is a
 conceptual companion to restaurant-technology work, but it is technically
 standalone and needs no other repository, service, or restaurant system.
 
@@ -58,6 +58,7 @@ source .venv/bin/activate
 python -m pip install -e '.[test]'
 python examples/three_party_deal.py
 python examples/business_value.py
+python examples/customer_pricing.py
 pytest
 ```
 
@@ -81,14 +82,27 @@ Chapter 1's [practical guide](chapters/01-business-value.md),
 [`value.py`](src/deal_economics/value.py), and editable
 [`james_river_kitchen_value.json`](data/james_river_kitchen_value.json) show how
 the fictional $30,000 burden decomposes into $18,000 of potential recovery.
+Chapter 2's [customer-pricing guide](chapters/02-customer-pricing.md),
+[`pricing.py`](src/deal_economics/pricing.py), and editable
+[`james_river_kitchen_pricing.json`](data/james_river_kitchen_pricing.json)
+compare implementation prices, recurring fees, ROI, and payback from the buyer's
+perspective. Try an override without editing the data:
+
+```bash
+python examples/customer_pricing.py \
+  --implementation-price 10000 \
+  --monthly-fee 250 \
+  --annual-benefit 22000 \
+  --years 2
+```
 
 ## Eight-chapter roadmap
 
-Exactly two chapters are currently implemented; Chapters 2–7 below are titles only.
+Exactly three chapters are currently implemented; Chapters 3–7 below are titles only.
 
 0. **The Three-Party Deal** *(implemented)*
 1. **What Is the Business Problem Worth?** *(implemented)*
-2. **What Should the Customer Pay?** *(planned)*
+2. **What Should the Customer Pay?** *(implemented)*
 3. **What Does Delivery Actually Cost?** *(planned)*
 4. **Who Gets What?** *(planned)*
 5. **Reuse Changes Everything** *(planned)*
