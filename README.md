@@ -5,7 +5,8 @@ of custom-software engagements from a technical-sales and solutions-engineering
 perspective. Its central question is: **when does an engagement make economic
 sense for the customer, the solutions organization, and the engineering partner?**
 
-Only **Chapter 0 — The Three-Party Deal** is implemented. The repository is a
+**Chapter 0 — The Three-Party Deal** and **Chapter 1 — What Is the Business
+Problem Worth?** are implemented. The repository is a
 conceptual companion to restaurant-technology work, but it is technically
 standalone and needs no other repository, service, or restaurant system.
 
@@ -56,6 +57,7 @@ python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e '.[test]'
 python examples/three_party_deal.py
+python examples/business_value.py
 pytest
 ```
 
@@ -75,17 +77,20 @@ margin, and payback edge cases are printed explicitly rather than divided by zer
 Read [Chapter 0](chapters/00-three-party-deal.md) alongside the code in
 [`src/deal_economics/deal.py`](src/deal_economics/deal.py). The assumptions are
 editable in [`data/james_river_kitchen.json`](data/james_river_kitchen.json).
+Chapter 1's [practical guide](chapters/01-business-value.md),
+[`value.py`](src/deal_economics/value.py), and editable
+[`james_river_kitchen_value.json`](data/james_river_kitchen_value.json) show how
+the fictional $30,000 burden decomposes into $18,000 of potential recovery.
 
 ## Eight-chapter roadmap
 
-Exactly one chapter is currently implemented; Chapters 1–7 below are titles only.
+Exactly two chapters are currently implemented; Chapters 2–7 below are titles only.
 
 0. **The Three-Party Deal** *(implemented)*
-1. **What Is the Business Problem Worth?** *(planned)*
+1. **What Is the Business Problem Worth?** *(implemented)*
 2. **What Should the Customer Pay?** *(planned)*
 3. **What Does Delivery Actually Cost?** *(planned)*
 4. **Who Gets What?** *(planned)*
 5. **Reuse Changes Everything** *(planned)*
 6. **Recurring Revenue, Support, and Maintenance** *(planned)*
 7. **From One Williamsburg Restaurant to a Business** *(planned)*
-
