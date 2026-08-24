@@ -2,6 +2,8 @@
 
 [Previous: Chapter 1](01-business-value.md) · [Book home](../README.md) · [Next: Chapter 3](03-delivery-cost.md)
 
+![Chapter 2 — What Should the Customer Pay?](../images/chapters/2.png)
+
 > **Core question:** What customer investment preserves credible customer
 > economics once implementation price and recurring fees are visible?
 

@@ -2,6 +2,8 @@
 
 [Previous: Chapter 6](06-recurring-revenue.md) · [Book home](../README.md)
 
+![Chapter 7 — From One Williamsburg Restaurant to a Business](../images/chapters/7.png)
+
 > **Core question:** Under the modeled economics and capacity assumptions, what
 > breaks first as a repeatable delivery business grows?
 

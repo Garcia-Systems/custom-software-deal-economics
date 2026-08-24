@@ -2,6 +2,8 @@
 
 [Previous: Chapter 5](05-reuse-economics.md) · [Book home](../README.md) · [Next: Chapter 7](07-scaling-capstone.md)
 
+![Chapter 6 — Recurring Revenue, Support, and Maintenance](../images/chapters/6.png)
+
 > **Core question:** Do recurring fees cover recurring direct costs and support
 > workload without hiding implementation economics?
 

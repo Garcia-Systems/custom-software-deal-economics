@@ -2,6 +2,8 @@
 
 [Book home](../README.md) · [Next: Chapter 1](01-business-value.md)
 
+![Chapter 0 — The Three-Party Deal](../images/chapters/0.png)
+
 > **Core question:** Where does the money come from, where does it go, and why
 > does each participant agree to the deal?
 

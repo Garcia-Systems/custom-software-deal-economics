@@ -2,6 +2,8 @@
 
 [Previous: Chapter 3](03-delivery-cost.md) · [Book home](../README.md) · [Next: Chapter 5](05-reuse-economics.md)
 
+![Chapter 4 — Who Gets What?](../images/chapters/4.png)
+
 > **Core question:** Does one deal create credible customer benefit while
 > sustainably funding direct delivery and solutions-layer work?
 

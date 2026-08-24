@@ -2,6 +2,8 @@
 
 [Previous: Chapter 0](00-three-party-deal.md) · [Book home](../README.md) · [Next: Chapter 2](02-customer-pricing.md)
 
+![Chapter 1 — What Is the Business Problem Worth?](../images/chapters/1.png)
+
 > **Core question:** What current-state economic burden exists, and how much of
 > it could a credible improvement potentially recover?
 
