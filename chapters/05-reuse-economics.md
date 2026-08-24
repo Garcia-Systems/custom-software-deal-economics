@@ -2,6 +2,8 @@
 
 [Previous: Chapter 4](04-who-gets-what.md) · [Book home](../README.md) · [Next: Chapter 6](06-recurring-revenue.md)
 
+![Chapter 5 — Reuse Changes Everything](../images/chapters/5.png)
+
 > **Core question:** When does a reusable foundation recover its investment,
 > and when is custom-every-time delivery economically stronger?
 

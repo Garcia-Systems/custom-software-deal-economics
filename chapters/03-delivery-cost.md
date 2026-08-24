@@ -2,6 +2,8 @@
 
 [Previous: Chapter 2](02-customer-pricing.md) · [Book home](../README.md) · [Next: Chapter 4](04-who-gets-what.md)
 
+![Chapter 3 — What Does Delivery Actually Cost?](../images/chapters/3.png)
+
 > **Core question:** What active labor and other direct inputs does delivery
 > require, independently of elapsed duration and customer price?
 
