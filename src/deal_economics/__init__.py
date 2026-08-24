@@ -4,6 +4,7 @@ from .allocation import EngagementEconomics, SolutionsEffort, load_engagement_ec
 from .deal import DealScenario, ScenarioValidationError, load_scenario
 from .delivery import DeliveryScenario, LaborComponent, load_delivery_scenario
 from .pricing import PricingScenario, load_pricing_scenario
+from .reuse import ReuseComparison, ReuseScenario, ScalePoint, load_reuse_comparison
 from .value import (
     EventBurden,
     LaborBurden,
@@ -22,13 +23,17 @@ __all__ = [
     "LaborComponent",
     "PeriodicBurden",
     "PricingScenario",
+    "ReuseComparison",
+    "ReuseScenario",
     "ScenarioValidationError",
     "SolutionsEffort",
+    "ScalePoint",
     "ValueAssessment",
     "ValueComponent",
     "load_delivery_scenario",
     "load_engagement_economics",
     "load_pricing_scenario",
+    "load_reuse_comparison",
     "load_scenario",
     "load_value_assessment",
 ]
