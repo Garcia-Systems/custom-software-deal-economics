@@ -6,8 +6,8 @@ perspective. Its central question is: **when does an engagement make economic
 sense for the customer, the solutions organization, and the engineering partner?**
 
 **Chapter 0 — The Three-Party Deal**, **Chapter 1 — What Is the Business
-Problem Worth?**, **Chapter 2 — What Should the Customer Pay?**, and **Chapter 3
-— What Does Delivery Actually Cost?** are implemented. The repository is a
+Problem Worth?**, **Chapter 2 — What Should the Customer Pay?**, **Chapter 3
+— What Does Delivery Actually Cost?**, and **Chapter 4 — Who Gets What?** are implemented. The repository is a
 conceptual companion to restaurant-technology work, but it is technically
 standalone and needs no other repository, service, or restaurant system.
 
@@ -61,6 +61,7 @@ python examples/three_party_deal.py
 python examples/business_value.py
 python examples/customer_pricing.py
 python examples/delivery_cost.py
+python examples/deal_allocation.py
 pytest
 ```
 
@@ -113,15 +114,27 @@ python examples/delivery_cost.py \
   --delivery-budget 3000
 ```
 
+Chapter 4's [three-party allocation guide](chapters/04-who-gets-what.md),
+[`allocation.py`](src/deal_economics/allocation.py), and editable
+[`james_river_kitchen_allocation.json`](data/james_river_kitchen_allocation.json)
+keep customer, solutions-layer, and engineering-partner economics visible. Try:
+
+```bash
+python examples/deal_allocation.py \
+  --customer-price 10000 \
+  --engineering-cost 4000 \
+  --other-direct-costs 750
+```
+
 ## Eight-chapter roadmap
 
-Exactly four chapters are currently implemented; Chapters 4–7 below are titles only.
+Exactly five chapters are currently implemented; Chapters 5–7 below are titles only.
 
 0. **The Three-Party Deal** *(implemented)*
 1. **What Is the Business Problem Worth?** *(implemented)*
 2. **What Should the Customer Pay?** *(implemented)*
 3. **What Does Delivery Actually Cost?** *(implemented)*
-4. **Who Gets What?** *(planned)*
+4. **Who Gets What?** *(implemented)*
 5. **Reuse Changes Everything** *(planned)*
 6. **Recurring Revenue, Support, and Maintenance** *(planned)*
 7. **From One Williamsburg Restaurant to a Business** *(planned)*

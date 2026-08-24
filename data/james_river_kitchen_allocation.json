@@ -1,0 +1,19 @@
+{
+  "scenario": "James River Kitchen",
+  "fictional": true,
+  "annual_customer_value": "18000.00",
+  "customer_price": "8000.00",
+  "engineering_delivery_cost": "3000.00",
+  "partner_modeled_delivery_cost": "3000.00",
+  "other_direct_costs": "500.00",
+  "solutions_effort": [
+    {"name": "Prospecting", "hours": "4"},
+    {"name": "Discovery", "hours": "6"},
+    {"name": "Requirements and design", "hours": "8"},
+    {"name": "Customer meetings", "hours": "5"},
+    {"name": "Demo support", "hours": "4"},
+    {"name": "Delivery coordination", "hours": "8"},
+    {"name": "Acceptance / QA", "hours": "5"},
+    {"name": "Account follow-up", "hours": "5"}
+  ]
+}
