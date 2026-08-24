@@ -1,0 +1,12 @@
+{
+  "scenario": "James River Kitchen managed service",
+  "fictional": true,
+  "implementation_price": "7500.00",
+  "monthly_fee_per_customer": "350.00",
+  "hosting_per_customer": "40.00",
+  "monitoring_per_customer": "20.00",
+  "support_hours_per_customer": "0.75",
+  "support_hourly_cost": "120.00",
+  "available_support_hours_per_month": "80.00",
+  "customer_counts": [1, 5, 10, 25, 50, 100]
+}
