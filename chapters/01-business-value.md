@@ -1,5 +1,10 @@
 # Chapter 1 — What Is the Business Problem Worth?
 
+[Previous: Chapter 0](00-three-party-deal.md) · [Book home](../README.md) · [Next: Chapter 2](02-customer-pricing.md)
+
+> **Core question:** What current-state economic burden exists, and how much of
+> it could a credible improvement potentially recover?
+
 > **Important:** James River Kitchen is fictional. Every restaurant detail,
 > amount, frequency, cost, and improvement rate below is an editable educational
 > assumption—not real financial data, a benchmark, a forecast, or financial advice.
@@ -210,6 +215,7 @@ The existence of a problem is not a recommendation to build software.
 
 Chapter 0 said, “Suppose the problem costs $30,000 and $18,000 is recoverable.”
 Chapter 1 asks, “Why do we believe those numbers?” and answers with inspectable
-operational assumptions. Chapter 2 will eventually ask about price, but is not
-implemented here. This chapter adds no pricing, delivery-budget, reuse, recurring
-revenue, scaling, or forecasting logic.
+operational assumptions. Chapter 2 asks about price. This chapter deliberately stops at the value
+hypothesis rather than mixing in price, delivery cost, reuse, or recurring economics.
+
+[Previous: Chapter 0](00-three-party-deal.md) · [Book home](../README.md) · [Next: Chapter 2](02-customer-pricing.md)

@@ -173,15 +173,18 @@ python examples/scaling_capstone.py \
   --support-capacity 120
 ```
 
-## Eight-chapter roadmap
+## Book map
 
-All eight chapters are implemented and verified by the repository test suite.
+| Chapter | Question | Executable model |
+|---:|---|---|
+| [0](chapters/00-three-party-deal.md) | Does the three-party deal make sense? | Three-party deal |
+| [1](chapters/01-business-value.md) | What is the problem worth? | Business value |
+| [2](chapters/02-customer-pricing.md) | What should the customer pay? | Customer pricing |
+| [3](chapters/03-delivery-cost.md) | What does delivery cost? | Delivery cost |
+| [4](chapters/04-who-gets-what.md) | Who gets what? | Deal allocation |
+| [5](chapters/05-reuse-economics.md) | What changes with reuse? | Reuse economics |
+| [6](chapters/06-recurring-revenue.md) | What happens after go-live? | Recurring economics |
+| [7](chapters/07-scaling-capstone.md) | Does it scale? | Scaling capstone |
 
-0. **The Three-Party Deal** *(implemented)*
-1. **What Is the Business Problem Worth?** *(implemented)*
-2. **What Should the Customer Pay?** *(implemented)*
-3. **What Does Delivery Actually Cost?** *(implemented)*
-4. **Who Gets What?** *(implemented)*
-5. **Reuse Changes Everything** *(implemented)*
-6. **Recurring Revenue, Support, and Maintenance** *(implemented)*
-7. **From One Williamsburg Restaurant to a Business** *(implemented)*
+**Project status:** all eight chapters (0–7), executable examples, and domain
+models are implemented. Chapter 7 is the capstone and end of the book.

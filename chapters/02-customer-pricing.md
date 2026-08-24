@@ -1,5 +1,10 @@
 # Chapter 2 — What Should the Customer Pay?
 
+[Previous: Chapter 1](01-business-value.md) · [Book home](../README.md) · [Next: Chapter 3](03-delivery-cost.md)
+
+> **Core question:** What customer investment preserves credible customer
+> economics once implementation price and recurring fees are visible?
+
 > **Learning-model disclaimer:** James River Kitchen, every alternative, and every
 > financial figure in this chapter are fictional. They are editable assumptions,
 > not restaurant data, financial advice, engineering quotes, market rates, or
@@ -37,7 +42,7 @@ No method is universally correct.
    correlate with value, and incentives can drift when effort dominates outcome.
 2. **Cost-based pricing:** `estimated direct delivery cost + required contribution`.
    This is a useful internal floor or sanity check. It does not prove sufficient
-   customer value: a vendor-profitable project can still be irrational to buy.
+   customer value: positive vendor contribution can still accompany an irrational purchase.
    Chapter 3 will examine delivery cost rather than doing so here.
 3. **Fixed-project pricing:** one price for defined scope. Its credibility depends
    on scope clarity, assumptions, exclusions, change risk, and delivery risk. This
@@ -133,7 +138,7 @@ These results do not identify a “correct” price. Scope, risk, delivery cost,
 alternatives, budget, complexity, strategic importance, procurement constraints,
 and recurring obligations still matter. Lower price is not automatically better.
 
-## 10. A price can be profitable and still be bad for the customer
+## 10. A price can produce vendor contribution and still be bad for the customer
 
 Cost-based reasoning might show positive vendor contribution while customer net
 benefit is negative. Knowing cost does not prove value. Likewise, mathematical
@@ -149,7 +154,7 @@ A customer's willingness to pay is not proof of value.
 
 Strong ROI does not say whether implementation and support are sustainable.
 
-A strong value case is not proof that the vendor can deliver profitably.
+A strong value case is not proof that the vendor can deliver with sustainable modeled contribution.
 
 That second question belongs to Chapter 3. This chapter does not add staffing,
 engineering-hour, QA, DevOps, reuse, offshore-rate, or margin-allocation models.
@@ -222,6 +227,7 @@ building. This is a scenario diagnosis, not a universal payback rule.
 This textbook produces a **pricing model**, not a real customer quote. A quote
 would also require actual scope, integrations, data quality, security requirements,
 delivery risk, acceptance criteria, support obligations, legal terms, procurement,
-schedule, and engineering cost. Those are intentionally absent. Chapter 3 will
-ask whether a customer-attractive price can support viable delivery economics;
-Chapters 3–7 remain future work.
+schedule, and engineering cost. Those are intentionally absent. Chapter 3 asks whether a customer-attractive price can support viable delivery
+economics; later chapters then add allocation, reuse, recurring obligations, and scale.
+
+[Previous: Chapter 1](01-business-value.md) · [Book home](../README.md) · [Next: Chapter 3](03-delivery-cost.md)

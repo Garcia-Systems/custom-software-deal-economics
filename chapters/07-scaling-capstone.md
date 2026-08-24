@@ -1,5 +1,10 @@
 # Chapter 7 — From One Williamsburg Restaurant to a Business
 
+[Previous: Chapter 6](06-recurring-revenue.md) · [Book home](../README.md)
+
+> **Core question:** Under the modeled economics and capacity assumptions, what
+> breaks first as a repeatable delivery business grows?
+
 > **Fictional learning model:** James River Kitchen, Garcia Systems, every customer,
 > every capacity, and every financial figure in this chapter are invented educational
 > assumptions. They are not restaurant data, market benchmarks, quotes, staffing
@@ -330,3 +335,8 @@ business arrangement in which the customer receives credible value, the solution
 organization is rewarded for creating and managing the opportunity, the engineering
 organization can deliver sustainably, and the economics remain viable as the
 relationship grows.
+
+That evidence can support **BUILD, BUY, NARROW, VALIDATE, or STOP**; it does not
+guarantee a scalable business. This is the end of the eight-chapter sequence.
+
+[Previous: Chapter 6](06-recurring-revenue.md) · [Book home](../README.md)

@@ -1,5 +1,10 @@
 # Chapter 4 — Who Gets What?
 
+[Previous: Chapter 3](03-delivery-cost.md) · [Book home](../README.md) · [Next: Chapter 5](05-reuse-economics.md)
+
+> **Core question:** Does one deal create credible customer benefit while
+> sustainably funding direct delivery and solutions-layer work?
+
 All figures in this chapter are fictional educational assumptions—not restaurant
 economics, engineering quotes, compensation data, or market-rate claims.
 
@@ -112,3 +117,5 @@ remains, and how much solutions effort creates and manages the engagement. If
 every customer requires 45 solutions hours, 93 delivery hours, and new setup
 work, growth may become difficult. Chapter 5 will ask what changes when common
 engineering work can be reused; reuse is intentionally not modeled here.
+
+[Previous: Chapter 3](03-delivery-cost.md) · [Book home](../README.md) · [Next: Chapter 5](05-reuse-economics.md)

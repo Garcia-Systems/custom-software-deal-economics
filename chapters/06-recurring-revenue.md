@@ -1,5 +1,10 @@
 # Chapter 6 — Recurring Revenue, Support, and Maintenance
 
+[Previous: Chapter 5](05-reuse-economics.md) · [Book home](../README.md) · [Next: Chapter 7](07-scaling-capstone.md)
+
+> **Core question:** Do recurring fees cover recurring direct costs and support
+> workload without hiding implementation economics?
+
 > **Disclaimer:** James River Kitchen and every number in this chapter are
 > fictional educational assumptions—not managed-service rates, infrastructure
 > prices, support benchmarks, staffing guidance, or a quote.
@@ -21,9 +26,10 @@ A reusable onboarding platform can coexist with an unsustainable support model.
 
 ## 2. Separate implementation revenue from recurring revenue
 
-The fictional implementation price is **$7,500 once**. The managed-service fee
+The fictional implementation price is **$8,000 once**, consistent with the
+single-deal, reuse, and capstone scenarios. The managed-service fee
 is **$350 per active customer per month**. At ten customers, implementation
-revenue is $75,000 one-time cumulative revenue; $3,500 is monthly recurring
+revenue is $80,000 one-time cumulative revenue; $3,500 is monthly recurring
 revenue. Only the latter belongs in MRR and ARR.
 
 ## 3. Calculate MRR
@@ -176,3 +182,5 @@ implement the capstone.
 > are all combined at 1, 5, 10, 25, 50, and 100 customers?
 
 That is Chapter 7.
+
+[Previous: Chapter 5](05-reuse-economics.md) · [Book home](../README.md) · [Next: Chapter 7](07-scaling-capstone.md)

@@ -1,5 +1,10 @@
 # Chapter 5 — Reuse Changes Everything
 
+[Previous: Chapter 4](04-who-gets-what.md) · [Book home](../README.md) · [Next: Chapter 6](06-recurring-revenue.md)
+
+> **Core question:** When does a reusable foundation recover its investment,
+> and when is custom-every-time delivery economically stronger?
+
 ## 1. The problem with building every customer from scratch
 
 Chapter 4 combined solutions effort and delivery effort for one engagement. At
@@ -184,3 +189,5 @@ Implementation can become attractive at scale while every live customer creates
 ongoing obligations. Chapter 6 will ask what happens when each customer also
 generates monthly revenue, hosting cost, maintenance, and support workload. None
 of those recurring economics are implemented here.
+
+[Previous: Chapter 4](04-who-gets-what.md) · [Book home](../README.md) · [Next: Chapter 6](06-recurring-revenue.md)
