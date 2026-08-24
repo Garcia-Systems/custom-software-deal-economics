@@ -1,0 +1,24 @@
+{
+  "scenario": "James River Kitchen",
+  "fictional": true,
+  "delivery_budget": "3000.00",
+  "elapsed_weeks": "6",
+  "labor": [
+    {
+      "name": "Engineering",
+      "hours": "70",
+      "hourly_rate": "30.00"
+    },
+    {
+      "name": "QA",
+      "hours": "15",
+      "hourly_rate": "25.00"
+    },
+    {
+      "name": "Deployment / DevOps",
+      "hours": "8",
+      "hourly_rate": "30.00"
+    }
+  ],
+  "rework_reserve": "285.00"
+}

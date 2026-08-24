@@ -6,7 +6,8 @@ perspective. Its central question is: **when does an engagement make economic
 sense for the customer, the solutions organization, and the engineering partner?**
 
 **Chapter 0 — The Three-Party Deal**, **Chapter 1 — What Is the Business
-Problem Worth?**, and **Chapter 2 — What Should the Customer Pay?** are implemented. The repository is a
+Problem Worth?**, **Chapter 2 — What Should the Customer Pay?**, and **Chapter 3
+— What Does Delivery Actually Cost?** are implemented. The repository is a
 conceptual companion to restaurant-technology work, but it is technically
 standalone and needs no other repository, service, or restaurant system.
 
@@ -59,6 +60,7 @@ python -m pip install -e '.[test]'
 python examples/three_party_deal.py
 python examples/business_value.py
 python examples/customer_pricing.py
+python examples/delivery_cost.py
 pytest
 ```
 
@@ -96,14 +98,29 @@ python examples/customer_pricing.py \
   --years 2
 ```
 
+Chapter 3's [delivery-cost guide](chapters/03-delivery-cost.md),
+[`delivery.py`](src/deal_economics/delivery.py), and editable
+[`james_river_kitchen_delivery.json`](data/james_river_kitchen_delivery.json)
+separate active effort from elapsed duration and compare a visible cost build-up
+with its fictional delivery budget. Try:
+
+```bash
+python examples/delivery_cost.py \
+  --engineering-hours 100 \
+  --engineering-rate 35 \
+  --qa-hours 20 \
+  --rework-reserve 500 \
+  --delivery-budget 3000
+```
+
 ## Eight-chapter roadmap
 
-Exactly three chapters are currently implemented; Chapters 3–7 below are titles only.
+Exactly four chapters are currently implemented; Chapters 4–7 below are titles only.
 
 0. **The Three-Party Deal** *(implemented)*
 1. **What Is the Business Problem Worth?** *(implemented)*
 2. **What Should the Customer Pay?** *(implemented)*
-3. **What Does Delivery Actually Cost?** *(planned)*
+3. **What Does Delivery Actually Cost?** *(implemented)*
 4. **Who Gets What?** *(planned)*
 5. **Reuse Changes Everything** *(planned)*
 6. **Recurring Revenue, Support, and Maintenance** *(planned)*
