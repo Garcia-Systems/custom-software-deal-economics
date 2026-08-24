@@ -1,5 +1,10 @@
 # Chapter 3 — What Does Delivery Actually Cost?
 
+[Previous: Chapter 2](02-customer-pricing.md) · [Book home](../README.md) · [Next: Chapter 4](04-who-gets-what.md)
+
+> **Core question:** What active labor and other direct inputs does delivery
+> require, independently of elapsed duration and customer price?
+
 ## 1. Price is not delivery cost
 
 Chapter 2 asked what the customer should pay. This chapter asks what an
@@ -185,3 +190,5 @@ Chapter 3 asks whether delivery can be sustainable inside the economics created
 by that price. If price is $8,000 and modeled delivery cost is $3,000, $5,000
 remains **before other engagement economics**. This chapter does not allocate or
 interpret that remainder. Chapter 4 will address who gets what.
+
+[Previous: Chapter 2](02-customer-pricing.md) · [Book home](../README.md) · [Next: Chapter 4](04-who-gets-what.md)

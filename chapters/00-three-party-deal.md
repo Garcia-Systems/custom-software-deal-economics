@@ -1,5 +1,7 @@
 # Chapter 0 — The Three-Party Deal
 
+[Book home](../README.md) · [Next: Chapter 1](01-business-value.md)
+
 > **Core question:** Where does the money come from, where does it go, and why
 > does each participant agree to the deal?
 
@@ -139,7 +141,7 @@ monthly economic benefit = $18,000 / 12 = $1,500
 payback months = $8,000 / $1,500 ≈ 5.33 months
 ```
 
-With zero benefit there is no payback result. Chapter 2 will eventually expand
+With zero benefit there is no payback result. Chapter 2 expands
 pricing and payback; Chapter 0 does not model recurring economics.
 
 ## 8. Solutions-organization economics
@@ -217,3 +219,5 @@ project, or build nothing.
 Chapter 1 asks, “What Is the Business Problem Worth?” It decomposes the $30,000
 current-state burden and makes each improvement assumption visible. Continue with
 [`01-business-value.md`](01-business-value.md).
+
+[Book home](../README.md) · [Next: Chapter 1](01-business-value.md)
