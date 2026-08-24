@@ -4,6 +4,7 @@ from .allocation import EngagementEconomics, SolutionsEffort, load_engagement_ec
 from .deal import DealScenario, ScenarioValidationError, load_scenario
 from .delivery import DeliveryScenario, LaborComponent, load_delivery_scenario
 from .pricing import PricingScenario, load_pricing_scenario
+from .recurring import RecurringScalePoint, RecurringScenario, load_recurring_scenario
 from .reuse import ReuseComparison, ReuseScenario, ScalePoint, load_reuse_comparison
 from .value import (
     EventBurden,
@@ -23,6 +24,8 @@ __all__ = [
     "LaborComponent",
     "PeriodicBurden",
     "PricingScenario",
+    "RecurringScalePoint",
+    "RecurringScenario",
     "ReuseComparison",
     "ReuseScenario",
     "ScenarioValidationError",
@@ -33,6 +36,7 @@ __all__ = [
     "load_delivery_scenario",
     "load_engagement_economics",
     "load_pricing_scenario",
+    "load_recurring_scenario",
     "load_reuse_comparison",
     "load_scenario",
     "load_value_assessment",
