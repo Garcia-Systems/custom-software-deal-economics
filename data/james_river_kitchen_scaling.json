@@ -1,0 +1,33 @@
+{
+  "scenario": "James River Kitchen — Reusable Delivery Platform",
+  "fictional": true,
+  "educational_note": "Every figure is a fictional simplifying assumption. Identical customers and acquisition within one modeled year are not forecasts.",
+  "customer_counts": [1, 5, 10, 25, 50, 100],
+  "aggressive_growth_target": 100,
+  "annual_value_per_customer": "18000.00",
+  "implementation": {
+    "foundation_investment": "25000.00",
+    "implementation_price": "8000.00",
+    "delivery_cost_per_customer": "3000.00"
+  },
+  "custom_every_time": {
+    "foundation_investment": "0.00",
+    "implementation_price": "8000.00",
+    "delivery_cost_per_customer": "6000.00",
+    "implementation_hours_per_customer": "160.00"
+  },
+  "recurring": {
+    "monthly_fee_per_customer": "350.00",
+    "hosting_per_customer": "40.00",
+    "monitoring_per_customer": "20.00",
+    "support_hours_per_customer": "0.75",
+    "support_hourly_cost": "120.00"
+  },
+  "capacity": {
+    "solutions_hours_per_customer": "45.00",
+    "implementation_hours_per_customer": "93.00",
+    "annual_solutions_hours": "1500.00",
+    "annual_implementation_hours": "2000.00",
+    "monthly_support_hours": "80.00"
+  }
+}
