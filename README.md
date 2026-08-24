@@ -8,8 +8,10 @@ sense for the customer, the solutions organization, and the engineering partner?
 **Chapter 0 — The Three-Party Deal**, **Chapter 1 — What Is the Business
 Problem Worth?**, **Chapter 2 — What Should the Customer Pay?**, **Chapter 3
 — What Does Delivery Actually Cost?**, **Chapter 4 — Who Gets What?**, and
-**Chapter 5 — Reuse Changes Everything**, and **Chapter 6 — Recurring Revenue,
-Support, and Maintenance** are implemented. The repository is a
+**Chapter 5 — Reuse Changes Everything**, **Chapter 6 — Recurring Revenue,
+Support, and Maintenance**, and **Chapter 7 — From One Williamsburg Restaurant
+to a Business** are implemented. The complete eight-chapter executable textbook
+sequence is implemented. The repository is a
 conceptual companion to restaurant-technology work, but it is technically
 standalone and needs no other repository, service, or restaurant system.
 
@@ -66,6 +68,7 @@ python examples/delivery_cost.py
 python examples/deal_allocation.py
 python examples/reuse_economics.py
 python examples/recurring_revenue.py
+python examples/scaling_capstone.py
 pytest
 ```
 
@@ -157,9 +160,22 @@ python examples/recurring_revenue.py \
   --support-capacity 120
 ```
 
+Chapter 7's [scaling capstone](chapters/07-scaling-capstone.md),
+[`scaling.py`](src/deal_economics/scaling.py), and editable
+[`james_river_kitchen_scaling.json`](data/james_river_kitchen_scaling.json)
+compose customer value, reuse, recurring economics, and capacity at 1, 5, 10,
+25, 50, and 100 fictional customers. Try:
+
+```bash
+python examples/scaling_capstone.py \
+  --solutions-capacity 2000 \
+  --engineering-capacity 3000 \
+  --support-capacity 120
+```
+
 ## Eight-chapter roadmap
 
-Exactly seven chapters are currently implemented; Chapter 7 remains future work.
+All eight chapters are implemented and verified by the repository test suite.
 
 0. **The Three-Party Deal** *(implemented)*
 1. **What Is the Business Problem Worth?** *(implemented)*
@@ -168,4 +184,4 @@ Exactly seven chapters are currently implemented; Chapter 7 remains future work.
 4. **Who Gets What?** *(implemented)*
 5. **Reuse Changes Everything** *(implemented)*
 6. **Recurring Revenue, Support, and Maintenance** *(implemented)*
-7. **From One Williamsburg Restaurant to a Business** *(planned)*
+7. **From One Williamsburg Restaurant to a Business** *(implemented)*
