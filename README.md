@@ -7,7 +7,8 @@ sense for the customer, the solutions organization, and the engineering partner?
 
 **Chapter 0 — The Three-Party Deal**, **Chapter 1 — What Is the Business
 Problem Worth?**, **Chapter 2 — What Should the Customer Pay?**, **Chapter 3
-— What Does Delivery Actually Cost?**, and **Chapter 4 — Who Gets What?** are implemented. The repository is a
+— What Does Delivery Actually Cost?**, **Chapter 4 — Who Gets What?**, and
+**Chapter 5 — Reuse Changes Everything** are implemented. The repository is a
 conceptual companion to restaurant-technology work, but it is technically
 standalone and needs no other repository, service, or restaurant system.
 
@@ -62,6 +63,7 @@ python examples/business_value.py
 python examples/customer_pricing.py
 python examples/delivery_cost.py
 python examples/deal_allocation.py
+python examples/reuse_economics.py
 pytest
 ```
 
@@ -126,15 +128,28 @@ python examples/deal_allocation.py \
   --other-direct-costs 750
 ```
 
+Chapter 5's [reuse-economics guide](chapters/05-reuse-economics.md),
+[`reuse.py`](src/deal_economics/reuse.py), and editable
+[`james_river_kitchen_reuse.json`](data/james_river_kitchen_reuse.json) compare
+custom-every-time delivery with a reusable foundation across multiple customers.
+The model includes implementation economics only—no recurring revenue. Try:
+
+```bash
+python examples/reuse_economics.py \
+  --foundation-investment 40000 \
+  --price-per-customer 9000 \
+  --delivery-cost-per-customer 3500
+```
+
 ## Eight-chapter roadmap
 
-Exactly five chapters are currently implemented; Chapters 5–7 below are titles only.
+Exactly six chapters are currently implemented; Chapters 6–7 remain future work.
 
 0. **The Three-Party Deal** *(implemented)*
 1. **What Is the Business Problem Worth?** *(implemented)*
 2. **What Should the Customer Pay?** *(implemented)*
 3. **What Does Delivery Actually Cost?** *(implemented)*
 4. **Who Gets What?** *(implemented)*
-5. **Reuse Changes Everything** *(planned)*
+5. **Reuse Changes Everything** *(implemented)*
 6. **Recurring Revenue, Support, and Maintenance** *(planned)*
 7. **From One Williamsburg Restaurant to a Business** *(planned)*
